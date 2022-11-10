@@ -3,10 +3,10 @@
 
 
 ## Table of Contents
-* [General_Info]
-* [Technologies_Used]
-* [Conclusions]
-* [Acknowledgements]
+* [General_Info](#general-info)
+* [Technologies_Used](#technologies_used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
 
 ## General Info
     The analysis uses historical data set provided by the lending club and identifies categorical and continious variables and their influence on on the risk of Defaulting. The analysis is based on historical data of old loans that are either fully paid, or defaulted. Current loans are excluded from the analysis as they can't considered as defaulted
