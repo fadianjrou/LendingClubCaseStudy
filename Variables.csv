@@ -1,0 +1,59 @@
+Variable,Relivent,Note,Dtype,Non-Null Count,Null Count,Description
+acc_now_delinq,1,,int64,38577,0,The number of accounts on which the borrower is now delinquent.
+addr_state,1,,object ,38577,0,The state provided by the borrower in the loan application
+annual_inc,1,,float64,38577,0,The self-reported annual income provided by the borrower during registration.
+application_type,0,BV,object ,38577,0,Indicates whether the loan is an individual application or a joint application with two co-borrowers
+chargeoff_within_12_mths,1,,float64,38521,56,Number of charge-offs within 12 months
+collection_recovery_fee,0,BV,float64,38577,0,post charge off collection fee
+collections_12_mths_ex_med,0,,float64,38521,56,Number of collections in 12 months excluding medical collections
+delinq_2yrs,0,BV,int64,38577,0,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+delinq_amnt,1,,int64,38577,0,The past-due amount owed for the accounts on which the borrower is now delinquent.
+desc,0,User Added Free Text,object ,26050,12527,Loan description provided by the borrower
+dti,1,,float64,38577,0,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income."
+earliest_cr_line,0,BV,object ,38577,0,The month the borrower's earliest reported credit line was opened
+emp_length,1,,object ,37544,1033,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+emp_title,1,,object ,36191,2386,The job title supplied by the Borrower when applying for the loan.*
+funded_amnt,1,,int64,38577,0,The total amount committed to that loan at that point in time.
+funded_amnt_inv,1,,float64,38577,0,The total amount committed by investors for that loan at that point in time.
+grade,1,,object ,38577,0,LC assigned loan grade
+home_ownership,1,,object ,38577,0,"The home ownership status provided by the borrower during registration. Our values are: RENT, OWN, MORTGAGE, OTHER."
+id,1,,int64,38577,0,A unique LC assigned ID for the loan listing.
+initial_list_status,1,,object ,38577,0,"The initial listing status of the loan. Possible values are – W, F"
+inq_last_6mths,0,BV,int64,38577,0,The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+installment,1,,float64,38577,0,The monthly payment owed by the borrower if the loan originates.
+int_rate,1,,object ,38577,0,Interest Rate on the loan
+issue_d,0,BV,object ,38577,0,The month which the loan was funded
+last_credit_pull_d,0,BV,object ,38575,2,The most recent month LC pulled credit for this loan
+last_pymnt_amnt,0,BV,float64,38577,0,Last total payment amount received
+last_pymnt_d,0,BV,object ,38506,71,Last month payment was received
+loan_amnt,1,,int64,38577,0,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+loan_status,1,,object ,38577,0,Current status of the loan
+member_id,1,,int64,38577,0,A unique LC assigned Id for the borrower member.
+mths_since_last_delinq,0,Null Values 24905,float64,13672,24905,The number of months since the borrower's last delinquency.
+mths_since_last_record,0,Null Values 35837,float64,2740,35837,The number of months since the last public record.
+next_pymnt_d,0,Null Values 38577,object ,0,38577,Next scheduled payment date
+open_acc,0,BV,int64,38577,0,The number of open credit lines in the borrower's credit file.
+out_prncp,0,BV,float64,38577,0,Remaining outstanding principal for total amount funded
+out_prncp_inv,0,BV,float64,38577,0,Remaining outstanding principal for portion of total amount funded by investors
+policy_code,1,,int64,38577,0,"publicly available policy_code=1
+new products not publicly available policy_code=2"
+pub_rec,0,BV,int64,38577,0,Number of derogatory public records
+pub_rec_bankruptcies,1,,float64,37880,697,Number of public record bankruptcies
+purpose,1,,object ,38577,0,A category provided by the borrower for the loan request. 
+pymnt_plan,1,,object ,38577,0,Indicates if a payment plan has been put in place for the loan
+recoveries,0,BV,float64,38577,0,post charge off gross recovery
+revol_bal,0,BV,int64,38577,0,Total credit revolving balance
+revol_util,0,BV,object ,38527,50,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+sub_grade,1,,object ,38577,0,LC assigned loan subgrade
+tax_liens,1,,float64,38538,39,Number of tax liens
+term,1,,object ,38577,0,The number of payments on the loan. Values are in months and can be either 36 or 60.
+title,0,User Added Free Text,object ,38566,11,The loan title provided by the borrower
+total_acc,0,BV,int64,38577,0,The total number of credit lines currently in the borrower's credit file
+total_pymnt,0,BV,float64,38577,0,Payments received to date for total amount funded
+total_pymnt_inv,0,BV,float64,38577,0,Payments received to date for portion of total amount funded by investors
+total_rec_int,0,BV,float64,38577,0,Interest received to date
+total_rec_late_fee,0,BV,float64,38577,0,Late fees received to date
+total_rec_prncp,0,BV,float64,38577,0,Principal received to date
+url,0,Irrelevent,object ,38577,0,URL for the LC page with listing data.
+verification_status,1,,object ,38577,0,"Indicates if income was verified by LC, not verified, or if the income source was verified"
+zip_code,1,,object ,38577,0,The first 3 numbers of the zip code provided by the borrower in the loan application.
