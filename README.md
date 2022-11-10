@@ -30,5 +30,5 @@
 ## Contact
 Created by [@Wajdi.Tahmoush] 
 Partnered by [@fadiAnjrou]
-Feel free to contact me!
+Feel free to contact us!
 
